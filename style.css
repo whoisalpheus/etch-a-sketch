@@ -1,0 +1,10 @@
+/* CSS for etch-a-sketch */
+/* Use flexbox to make grid */
+.squares {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 10px;
+    max-width: 500px;
+    margin: 0 auto;
+}
